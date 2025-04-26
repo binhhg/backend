@@ -11,6 +11,8 @@ module.exports = (container) => {
     PUT: 'update',
     DELETE: 'delete'
   }
+
+
   const authorization = async (req, res) => {
     try {
       const token = req.headers['x-access-token']
