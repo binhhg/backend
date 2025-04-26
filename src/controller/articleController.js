@@ -78,6 +78,10 @@ module.exports = (container) => {
             res.status(httpCode.UNKNOWN_ERROR).send({ ok: false })
         }
     }
+
+
+
+
     const getArticle = async (req, res) => {
         try {
             let {
